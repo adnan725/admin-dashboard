@@ -1,0 +1,52 @@
+.navbar {
+  height: 4.1rem;
+  border-bottom: 0.3px solid rgb(226, 226, 226);
+  font-size: 14px;
+  padding: 0 1rem;
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+    width: 100%;
+
+    .search {
+      display: flex;
+      align-items: center;
+      border: 0.3px solid rgb(226, 226, 226);
+      padding: 3px;
+
+      input {
+        border: none;
+        outline: none;
+        background-color: transparent;
+
+        &::placeholder {
+          font-size: 14px;
+        }
+      }
+    }
+
+    .items {
+      display: flex;
+      align-items: center;
+      gap: 30px;
+
+      .item {
+        display: flex;
+        align-items: center;
+
+        .icon {
+          font-size: 1.3rem;
+        }
+      }
+
+      .language {
+        display: flex;
+        gap: 5px;
+        align-items: center;
+      }
+    }
+  }
+}
