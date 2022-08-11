@@ -30,15 +30,21 @@ const Navbar = () => {
             </div>
             <div className={styles.item}>
               <NotificationsIcon className={styles.icon} />
+              <div className={styles.counter}>1</div>
             </div>
             <div className={styles.item}>
               <ChatBubbleIcon className={styles.icon} />
+              <div className={styles.counter}>1</div>
             </div>
             <div className={styles.item}>
               <ListIcon className={styles.icon} />
             </div>
             <div className={styles.item}>
-              <img src={process.env.PUBLIC_URL + "/adnan.jpg"} />
+              <img
+                className={styles.image}
+                src="./images/adnan.jpg"
+                alt="photo"
+              />
             </div>
           </div>
         </div>

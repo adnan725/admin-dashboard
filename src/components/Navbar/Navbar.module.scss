@@ -36,9 +36,30 @@
       .item {
         display: flex;
         align-items: center;
+        position: relative;
 
         .icon {
           font-size: 1.3rem;
+        }
+
+        .image {
+          width: 30px;
+          border-radius: 50%;
+        }
+
+        .counter {
+          width: 15px;
+          height: 15px;
+          border-radius: 50%;
+          background-color: red;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 10px;
+          font-weight: bold;
+          position: absolute;
+          top: -6px;
+          right: -6px;
         }
       }
 
