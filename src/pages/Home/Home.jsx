@@ -13,12 +13,7 @@ const Home = () => {
         </div>
         <div className={styles.homeContainer}>
           <Navbar />
-          <div className={styles.widgets}>
-            <Widgets type="users" />
-            <Widgets type="orders" />
-            <Widgets type="earnings" />
-            <Widgets type="balance" />
-          </div>
+          <Widgets />
         </div>
       </div>
     </>
