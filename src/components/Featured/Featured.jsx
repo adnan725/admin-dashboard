@@ -18,7 +18,7 @@ const Featured = () => {
             <CircularProgressbarWithChildren
               value={70}
               text="70%"
-              strokeWidth={3}
+              strokeWidth={6}
             />
           </div>
           <div className={styles.content}>
